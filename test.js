@@ -19,7 +19,7 @@ test("One euro should be 1.206 dollars", function(){
 test("One dollar should be 127.9 yen", function(){
     const { fromDollartoYen } = require('./app.js')
 
-    const dollars = fromDollartoYen(3.5)
+    const yen = fromDollartoYen(3.5)
 
     const expected = 3.5 * 127.9; 
     
@@ -29,7 +29,7 @@ test("One dollar should be 127.9 yen", function(){
 test("127.9 yen should be 0.8 pound", function(){
     const { fromYenToPound } = require('./app.js')
 
-    const dollars = fromYenToPound(250)
+    const pound = fromYenToPound(250)
 
     const expected = 250 * 0.8; 
     
